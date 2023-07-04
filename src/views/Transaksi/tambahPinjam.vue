@@ -61,7 +61,7 @@
                             <div class="pull-right">
                                 <input type="hidden" name="tambah" value="tambah">
                                 <button type="submit" class="btn btn-primary btn-md">Submit</button>
-                                <RouterLink to="/" class="btn btn-danger btn-md">Kembali</RouterLink>
+                                <RouterLink to="/library-web/peminjaman" class="btn btn-danger btn-md">Kembali</RouterLink>
                             </div>
                         </form>
                     </div>

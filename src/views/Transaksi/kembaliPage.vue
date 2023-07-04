@@ -55,7 +55,7 @@ export default {
   <a class="navbar-brand" href="#">CRUD OPERATION</a>
   <ul class="nav nav-pills">
     <li class="nav-item">
-      <a class="nav-link btn btn-outline-warning text-white" href="/">Home</a>
+      <a class="nav-link btn btn-outline-warning text-white" href="/library-web/">Home</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle btn btn-outline-warning text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Transaksi</a>
@@ -67,12 +67,8 @@ export default {
     <li class="nav-item">
       <a class="nav-link btn btn-outline-warning text-white" href="/library-web/profile">Go to Profile</a>
     </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle btn btn-outline-warning text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Select Operation</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#operasibuku">Buku</a></li>
-        <li><a class="dropdown-item" href="#operasikategori">Kategori</a></li>
-      </ul>
+    <li class="nav-item">
+      <a class="nav-link btn btn-outline-warning text-white" href="/library-web/dashboard">Back To Dashboard Admin</a>
     </li>
     
   </ul>
