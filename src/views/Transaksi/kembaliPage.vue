@@ -75,9 +75,15 @@ export default {
 </nav>
   <main class="full">
     <div class="container">
-      <hr>
-      <hr>
-      <hr>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <TableComponent :fields='fields' :dataRow ="dataRow" :actionButtons="actionButtons" />
     </div>
   </main>

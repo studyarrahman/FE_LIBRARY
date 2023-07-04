@@ -93,9 +93,16 @@ export default {
 </nav>
   <main class="full">
     <div class="container">
-      <hr>
-      <hr>
-      <hr>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <button class="btn btn-primary my-2">
         <router-link to="/tambahpeminjaman" class="text-white text-decoration-none">Tambah Data Peminjam</router-link>
       </button>
