@@ -31,8 +31,8 @@
 import axios from 'axios';
 import { ref } from 'vue';
 
-const selectByNomor = 'http://localhost/library/selectanggotabynomor.php';
-const updateAnggotaAPI = 'http://localhost/library/updateanggotabynomor.php';
+const selectByNomor = 'selectanggotabynomor.php';
+const updateAnggotaAPI = 'updateanggotabynomor.php';
 
 export default {
     data() {

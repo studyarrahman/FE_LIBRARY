@@ -60,12 +60,12 @@ export default {
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle btn btn-outline-warning text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Transaksi</a>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="/peminjaman">Peminjaman</a></li>
-        <li><a class="dropdown-item" href="/pengembalian">Pengembalian</a></li>
+        <li><a class="dropdown-item" href="/library-web/peminjaman">Peminjaman</a></li>
+        <li><a class="dropdown-item" href="/library-web/pengembalian">Pengembalian</a></li>
       </ul>
     </li>
     <li class="nav-item">
-      <a class="nav-link btn btn-outline-warning text-white" href="/profile">Go to Profile</a>
+      <a class="nav-link btn btn-outline-warning text-white" href="/library-web/profile">Go to Profile</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle btn btn-outline-warning text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Select Operation</a>

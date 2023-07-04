@@ -21,8 +21,8 @@
 import axios from 'axios';
 import { ref } from 'vue';
 
-const selectByKode = 'http://localhost/library/selectkategoribykode.php';
-const updateApi = 'http://localhost/library/updatekategoribykode.php';
+const selectByKode = 'selectkategoribykode.php';
+const updateApi = 'updatekategoribykode.php';
 
 export default {
     data() {

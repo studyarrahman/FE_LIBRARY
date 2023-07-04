@@ -46,7 +46,7 @@
                                                                 placeholder="Contoh ID Buku : BK001" 
                                                                 v-model="form.kode_buku[0]"> -->
                                                                 <select class="form-control" v-model="form.kode_buku[0]" >
-                                                                    <option selected disabled>piilh kode buku</option>
+                                                                    <option selected disabled>pilih kode buku</option>
                                                                     <option v-for="buku in form.semua_buku" :value="buku.kode">{{buku.judul}}</option>
                                                                 </select>
                                                         </div>

@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { ref } from 'vue';
 
-const allBuku = 'http://localhost/library/selectallbuku.php';
+const allBuku = 'selectallbuku.php';
 
 export default {
   data() {
@@ -97,7 +97,7 @@ export default {
             </button>
           </ul>
         </div>
-        <a class="nav-link btn btn-outline-warning text-white" href="/dashboard">Go to Administrator Page</a>
+        <a class="nav-link btn btn-outline-warning text-white" href="/library-web/dashboard">Go to Administrator Page</a>
       </div>
     </div>
   </nav>

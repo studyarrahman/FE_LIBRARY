@@ -3,17 +3,17 @@
   <a class="navbar-brand" href="#">CRUD OPERATION</a>
   <ul class="nav nav-pills">
     <li class="nav-item">
-      <a class="nav-link btn btn-outline-warning text-white" href="/">Home</a>
+      <a class="nav-link btn btn-outline-warning text-white" href="/library-web/">Home</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle btn btn-outline-warning text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Transaksi</a>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="/peminjaman">Peminjaman</a></li>
-        <li><a class="dropdown-item" href="/pengembalian">Pengembalian</a></li>
+        <li><a class="dropdown-item" href="/library-web/peminjaman">Peminjaman</a></li>
+        <li><a class="dropdown-item" href="/library-web/pengembalian">Pengembalian</a></li>
       </ul>
     </li>
     <li class="nav-item">
-      <a class="nav-link btn btn-outline-warning text-white" href="/dashboard">Back To Dashboard Admin</a>
+      <a class="nav-link btn btn-outline-warning text-white" href="/library-web/dashboard">Back To Dashboard Admin</a>
     </li>
   </ul>
 </nav>
@@ -109,9 +109,9 @@
 import axios from 'axios';
 import { ref } from 'vue';
 
-const allAnggotaAPI = 'http://localhost/library/selectallanggota.php';
-const insertAnggotaAPI = 'http://localhost/library/insertanggota.php';
-const deleteAnggotaAPI = 'http://localhost/library/deleteanggotabynomor.php';
+const allAnggotaAPI = 'selectallanggota.php';
+const insertAnggotaAPI = 'insertanggota.php';
+const deleteAnggotaAPI = 'deleteanggotabynomor.php';
 
 export default {
   data() {

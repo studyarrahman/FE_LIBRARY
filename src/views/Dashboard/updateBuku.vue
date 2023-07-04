@@ -51,8 +51,8 @@
 import axios from 'axios';
 import { ref } from 'vue';
 
-const selectByKode = 'http://localhost/library/selectbukubykode.php';
-const updateApi = 'http://localhost/library/updatebukubykode.php';
+const selectByKode = 'selectbukubykode.php';
+const updateApi = 'updatebukubykode.php';
 
 export default {
   data() {
